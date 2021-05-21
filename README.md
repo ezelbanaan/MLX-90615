@@ -19,3 +19,16 @@ mlx90615.ambient()      # Prints the temperature in Celcius of the MLX90615 pack
 mlx90615.raw()          # Prints the raw ir sensor data.
 ```
 Thats it!
+# Pin layout
+The following pins can be used:
+
+I2C bus 0
+```
+SCL=18
+SDA=19
+```
+I2C bus 1
+```
+SCL=25
+SDA=26
+```
